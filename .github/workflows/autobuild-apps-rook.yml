@@ -1,8 +1,6 @@
 name: Auto build APP image
 on:
-  issue_comment:
-    types:
-      - created
+  workflow_dispatch: {}
 env:
   registry: docker.io
   repository: willdockerhub
