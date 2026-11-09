@@ -1,8 +1,6 @@
 name: Auto build Docker image
 on:
-  issue_comment:
-    types:
-      - created
+  workflow_dispatch: {}
 env:
   sealos: 4.1.0-rc1
 
